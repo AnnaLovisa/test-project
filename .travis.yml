@@ -3,9 +3,9 @@ node_js:
   - 8
 cache:
  directories:
-   - node_modules
-  script:
-  -npm build 
+  node_modules
+script:
+  - npm build 
   - npm test -- --coverage && cat ./coverage/lcov.info | coveralls
 deploy:
   provider: pages
