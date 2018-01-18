@@ -40,7 +40,7 @@ class Login extends Component {
     }
   };
 
-  /* handleChange = ({ target }) => this.setState({ [target.name]: target.value }); */
+  handleChange = ({ target }) => this.setState({ [target.name]: target.value });
 
   render() {
     return (
