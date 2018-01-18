@@ -45,6 +45,7 @@ class Login extends Component {
   render() {
     return (
       <form
+        style={{ backgroundColor: "#F90" }}
         onSubmit={this.onSubmit}
         data-test="form"
         className="flex flex-col items-center w-1/2 mx-auto mt-8"
